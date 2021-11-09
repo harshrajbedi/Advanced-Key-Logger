@@ -46,13 +46,13 @@ microphone_time = 60
 total_iterations = 10
 time_per_iteration = 3600
 
-email_address = "keyloggerproject0@gmail.com"
-password = "pythontest"
-to_address = "keyloggerproject0@gmail.com"
+email_address = " "
+password = " "
+to_address = " "
 encryption_key = "PwgaOzW7UItVOq6-iLwwQPSvDIx1kBm3zfxm0QFTktE="
 
 # FILE PATH TO CREATE AND ACCESS FILES
-file_path = "/Users/harsh/Documents/Keylogger Project Tests/AdvancedKeyLogger/keylogger"
+file_path = " "
 append = "/"
 file_path_appended = file_path + append
 

